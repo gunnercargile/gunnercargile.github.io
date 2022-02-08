@@ -1,0 +1,218 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  background: #FFD72C;
+  font-family: 'Quicksand', sans-serif;
+
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 24px;
+  line-height: 1.75;
+  margin-bottom: 14px;
+  color: #fff;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/* Header and .hero Styles
+*/
+
+header .logo {
+  border-right: 1px;
+}
+
+.hero img {
+  width: 100%;
+}
+
+/*
+
+ * Heading Styles
+*/
+
+h1, h2,  h3, h4, h5 {
+  font-family: 'Abril Fatface', cursive,;
+  color: black;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 24px;
+  text-align: left;
+}
+
+h4 {
+  font-size: 24px;
+  text-align: left;
+}
+
+h5 {
+  font-size: 24px;
+  text-align: left;
+}
+
+/* hr Styles */
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border: 3px solid #00C0FF;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+}
+
+/*
+ * Section Styles
+*/
+
+section.intro{
+  padding: 12px;
+}
+
+section.intro {
+  background:  #FFD72C;
+  padding: 12px;
+}
+section.Basic { 
+  background-color: #FFD72C;
+  opacity: 0.925;
+ text-align: center;
+ color: black;
+  text-align: left;
+  font-size: 24;
+
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px black;
+  border-radius: 4px;
+}
+section.Services {
+  background-color: #FFD72C;
+  opacity: 0.925;
+  text-align: center;
+ color: black;
+  text-align: left;
+  font-size: 24;
+  margin: 24;
+  padding: 12;
+}
+section.Traffic {
+  background-color: #FFD72C;
+  opacity: 0.925;
+ text-align: center;
+ color: black;
+  text-align: left;
+  font-size: 24;
+  margin: 24;
+  padding: 12;
+}
+section.Info {
+  background-color: #FFD72C;
+  opacity: 0.925;
+ text-align: center;
+ color: black;
+  text-align: left;
+  font-size: 24;
+  margin: 24;
+  padding: 12;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  font-size: 16;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #00C0FF;
+  border-radius: 4px;
+  background-color: #FFD72C;
+  resize: none;
+}
+
+section.Submit {
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: black;
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+body {
+  color: black;
+}
+
+/*
+ * Aside Styles
+*/
+
+aside.left {
+  float: left ;
+}
+
+aside.right {
+  float: right;
+}
+
+aside {
+  margin-right: 1.5rem;
+  margin-bottom: 0.625rem;
+}
